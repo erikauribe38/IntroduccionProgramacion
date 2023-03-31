@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Globant</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a href="./index.html" class="mr-5 hover:text-gray-900">Acerca de</a>
+            <a href="./CasosDeExito.html" class="mr-5 hover:text-gray-900">Casos de éxito</a>
+            <a href="./Carreras.html" class="mr-5 hover:text-gray-900">Carreras</a>
+            <a class="mr-5 hover:text-gray-900">Formulario de inscripción</a>
+          </nav>
+        </div>
+      </header>
+    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 text-center">Formulario de inscripción</h1>
+    <form class="w-full max-w-lg mx-auto my-12">
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                    Nombres
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Erika Alexandra">
+        </div>
+            <div class="w-full md:w-1/2 px-3">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                Apellidos
+            </label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Uribe Quintero">
+            </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+            <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                Email
+            </label>
+            <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="email" placeholder="Email">
+            
+            </div>
+        </div>
+
+        </div>
+
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2 my-4">Términos y Condiciones</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, nulla deleniti quisquam accusamus voluptatum excepturi eaque delectus incidunt beatae nemo, veniam nisi explicabo quae cupiditate nobis fugit animi veritatis alias.</p>
+
+        <label class="md:w-2/3 block text-gray-500 font-bold my-4">
+            <input class="mr-2 leading-tight" type="checkbox">
+            <span class="text-sm">
+            Acepto
+            </span>
+        </label>
+
+        <button class="shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded my-4" type="button">
+            Enviar
+        </button>
+
+        </form>
+
+      
+
+</body>
+</html>
